@@ -1,0 +1,17 @@
+<input id="n">
+<button onclick="c()">ok</button>
+<p id="r"></p>
+
+<script>
+c=()=>{
+
+x=n.value
+t=""
+
+for(i=1;i<=10;i++)
+t+=x+"x"+i+"="+x*i+"<br>"
+
+r.innerHTML=t
+
+}
+</script>
