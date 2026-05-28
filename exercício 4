@@ -1,0 +1,15 @@
+<input id="n">
+<button onclick="c()">Ok</button>
+<p id="r"></p>
+
+<script>
+c=()=>{
+
+ i=n.value
+
+ r.innerHTML=
+ i>=7?"Aprovado":
+ i>=5?"Recuperção":"Reprovado"
+
+}
+</script>
