@@ -1,0 +1,12 @@
+<input id="a"><input id="b">
+<button onclick="c()">Ok</button>
+<p id="r"></p>
+
+<script>
+c=()=>{
+
+ r.innerHTML=
+ a.value>b.value?a.value:b.value
+
+}
+</script>
