@@ -1,0 +1,16 @@
+<input id="n">
+<button onclick="c()">Ok</button>
+<p id="r"></p>
+
+<script>
+c=()=>{
+
+ i=n.value
+
+ r.innerHTML=
+  i<12?"Criança":
+  i<18?"Adolescente":
+  i<60?"Adulto":"Idoso"
+
+}
+</script>
