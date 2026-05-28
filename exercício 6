@@ -1,0 +1,14 @@
+<button onclick="c()">Ok</button>
+<p id="r"></p>
+
+<script>
+c=()=>{
+
+ t=""
+ for(i=1;i<=50;i++)
+ if(i%2==0)t+=i+""
+
+ r.innerHTML=t
+
+}
+</script>
