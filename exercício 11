@@ -1,0 +1,11 @@
+<input id="n">
+<button onclick="c()">Converter</button>
+<p id="r"></p>
+
+<script>
+c=()=>{
+
+ r.innerHTML=(n.value/5).toFixed(2)
+
+}
+</script>
