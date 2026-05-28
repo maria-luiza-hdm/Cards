@@ -1,0 +1,11 @@
+<input id="t">
+<button onclick="c()">Ok</button>
+<p id="r"></p>
+
+<script>
+c=()=>{
+
+ r.innerHTML=t.value.split("").reverse().join("")
+
+}
+</script>
